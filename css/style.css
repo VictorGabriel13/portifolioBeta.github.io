@@ -1,0 +1,149 @@
+body {
+    background-image: url(../img/fundo-icon.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    min-height: 100vh;
+    display: flex;
+    font-family: Arial;
+    padding: 20%;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.myPortifolio {
+    width: 700px;
+    height: 500px;
+    background: #ffffff33;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 3px solid #ffffff4d;
+}
+
+.myProfile {
+    width: 100px;
+    margin-right: 0px;
+    margin-bottom: 350px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.myGif {
+    width: 100px;
+    height: 40px;
+    margin-right: 0px;
+    margin-bottom: 310px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.Informacoes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 5px;
+    text-align: justify;
+}
+
+#AboutMe {
+    margin-top: 0;
+}
+
+.divider {
+    background-color: #ffffff4d;
+    position: absolute;
+    width: 700px;
+    height: 5px;
+    margin-bottom: 200px;
+}
+
+.Mydados {
+    position: absolute;
+    margin-right: 420px;
+    white-space: nowrap;
+    margin-top: 120px;
+}
+
+.Mydados #idade {
+    margin-right: 150px;
+}
+
+.Mydados #Status {
+    margin-left: 145px;
+}
+
+.Mydados #Profissão {
+    margin-right: 30px;
+}
+
+.Mydados #skills {
+    margin-right: 170px;
+}
+
+.img-logo {
+    width: 40px;
+}
+
+.Mydados .logo {
+    margin-right: 137px;
+}
+
+#tools {
+    margin-right: 160px;
+}
+
+#creditos {
+    position: absolute;
+    top: 10%; /* Ajuste a posição vertical */
+    left: 90%; /* Ajuste a posição horizontal */
+    transform: translate(-50%, -50%); /* Centraliza o container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.computer {
+    width: 250px;
+    position: absolute;
+    margin-bottom: 150px;
+    margin-left: 300px;
+}
+
+#shareButton {
+    background-color: #ffffff33;
+    color: white;
+    width: 35%;
+    border: 2px solid #ffffff4d;
+    padding: 8px 12px;
+    margin-left: 35%;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#shareButton:hover {
+    background-color: #2CC292;
+}
+
+.tools-logo {
+    width: 40px;
+    margin-left: 143px;
+}

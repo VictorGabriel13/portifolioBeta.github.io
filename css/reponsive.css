@@ -1,0 +1,419 @@
+@media screen and (min-width: 390px) and (max-width: 480px) {
+    body {
+        background-image: url(../img/fundo-icon.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        justify-content: center;
+        margin-top: 15%;
+        padding: 60%;
+        display: flex;
+        font-family: Arial;
+        color: white;
+    }
+    .myPortifolio {
+        width: 90%;
+        height: 45%;
+        padding: 30px;
+        margin-left: 10%;
+        margin-bottom: 20%;
+    }
+    .myProfile {
+        margin-top: 30px;
+        width: 100px;
+        margin-left: 0;
+        height: 100px;
+        border-radius: 20px;
+    }
+    .myGif {
+        width: 200px;
+        height: 50px;
+        margin-right: 0px;
+        margin-top: 15%;
+        margin-bottom: 310px;
+        border-radius: 50%;
+        margin-left: 20px;
+    }
+    
+    .Informacoes {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-right: 5px;
+        text-align: justify;
+    }
+    
+    #AboutMe {
+        margin-top: 15%;
+        font-size: 10px;
+    }
+    
+    .divider {
+        background-color: #ffffff4d;
+        position: absolute;
+        width: 100%;
+        height: 5px;
+        margin-bottom: 200px;
+    }
+
+    .Mydados {
+        margin-bottom: 0px;
+        margin-left: 50%;
+        margin-top: 25%;
+    }
+
+    .Mydados #name {
+        font-size: 16px;
+        margin-left: 26%;
+        white-space: nowrap;
+        margin-bottom: 20px;
+        position: absolute;
+    }
+
+    .Mydados #idade {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .Mydados #Status {
+        font-size: 16px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    .Mydados #Profissão {
+        font-size: 16px;
+    }
+
+    .Mydados #skills {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #creditos {
+        position: absolute;
+        top: 45%; /* Ajuste a posição vertical */
+        left: 100%; /* Ajuste a posição horizontal */
+        transform: translate(35%, -50%); /* Centraliza o container */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    } 
+    #shareButton {
+        margin-left: 50%;
+        margin-top: 500px;
+        position: absolute;
+        width: 80%;
+    }
+
+    .computer {
+        width: 40%;
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+    .img-logo {
+        width: 40px;
+    }
+
+
+}
+
+@media screen and (max-width: 380px){
+    body {
+        background-image: url(../img/fundo-icon.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        justify-content: center;
+        margin-top: 15%;
+        padding: 60%;
+        display: flex;
+        font-family: Arial;
+        color: white;
+    }
+    .myPortifolio {
+        width: 90%;
+        height: 50%;
+        padding: 30px;
+        margin-left: 10%;
+        margin-bottom: 20%;
+    }
+    .myProfile {
+        margin-top: 50px;
+        margin-left: 0;
+        width: 80px;
+        height: 80px;
+        border-radius: 20px;
+    }
+    .myGif {
+        width: 200px;
+        height: 50px;
+        margin-right: 0px;
+        margin-top: 15%;
+        margin-bottom: 310px;
+        border-radius: 50%;
+        margin-left: 20px;
+    }
+    
+    .Informacoes {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-right: 5px;
+        text-align: justify;
+    }
+    
+    #AboutMe {
+        margin-top: 15%;
+        font-size: 10px;
+    }
+    
+    .divider {
+        background-color: #ffffff4d;
+        position: absolute;
+        width: 100%;
+        height: 5px;
+        margin-bottom: 200px;
+    }
+
+    .Mydados {
+        margin-bottom: 0px;
+        margin-left: 50%;
+        margin-top: 20%;
+    }
+
+    .Mydados #name {
+        font-size: 16px;
+        margin-left: 26%;
+        white-space: nowrap;
+        margin-bottom: 20px;
+        position: absolute;
+    }
+
+    .Mydados #idade {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .Mydados #Status {
+        font-size: 16px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    .Mydados #Profissão {
+        font-size: 16px;
+    }
+
+    .Mydados #skills {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+   #creditos {
+        position: absolute;
+        top: 45%; /* Ajuste a posição vertical */
+        left: 100%; /* Ajuste a posição horizontal */
+        transform: translate(30%, -50%); /* Centraliza o container */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }    
+    #shareButton {
+        margin-left: 50%;
+        margin-top: 500px;
+        position: absolute;
+        width: 80%;
+    }
+
+    .computer {
+        width: 40%;
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+    .logo {
+        margin-left: -5%;
+    }
+    .tools-logo {
+        margin-left: 26.5%;
+
+    }
+    .img-logo {
+        width: 30px;
+
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+    body {
+        background-image: url(../img/fundo-icon.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        justify-content: center;
+        margin-top: 15%;
+        padding: 60%;
+        display: flex;
+        font-family: Arial;
+        color: white;
+    }
+
+    * {
+        margin: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .myPortifolio {
+        width: 100%;
+        height: 40%;
+        margin-left: 5%;
+        margin-bottom: 20%;
+    }
+
+    .myProfile {
+        margin-top: 14%;
+        width: 80px;
+        height: 75px;
+        border-radius: 20px;
+        margin-left: 10px;
+    }
+
+    .myGif {
+        width: 150px;
+        height: 40px;
+        margin-right: 0px;
+        margin-bottom: 310px;
+        border-radius: 20px;
+    }
+
+    .Informacoes {
+        margin-right: 5px;
+        text-align: justify;
+        font-size: 70%;
+        padding: 20px;
+        margin-top: 11%;
+    }
+
+    .divider {
+        background-color: #ffffff4d;
+        position: absolute;
+        width: 100%;
+        height: 5px;
+        margin-bottom: 160px;
+    }
+
+    .Mydados {
+        margin-bottom: 0px;
+        margin-top: 45%;
+    }
+
+    .Mydados #name {
+        font-size: 16px;
+        white-space: nowrap;
+        margin-bottom: 20px;
+        position: absolute;
+    }
+
+    .Mydados #idade {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .Mydados #Status {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .Mydados #Profissão {
+        font-size: 16px;
+    }
+
+    .Mydados #skills {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .img-logo {
+        width: 40px;
+    }
+
+    .Mydados .logo {
+        margin-right: 137px;
+    }
+
+    #tools {
+        position: absolute;
+        font-size: 16px;
+        margin-bottom: 90%;
+    }
+
+    #shareButton {
+        margin-left: 20%;
+        margin-top: 85%;
+        position: absolute;
+        width: 80%;
+    }
+
+    .computer {
+        width: 50%;
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 65%;
+    }
+
+    .tools-logo {
+        width: 40px;
+        margin-left: 143px;
+    }
+
+    .Mydados .logo {
+        margin-top: 10px;
+    }
+
+    .img-logo {
+        width: 35px;
+    }
+
+    .tools-logo {
+        margin-top: 20px;
+        margin-top: 7%;
+        margin-bottom: 95px;
+    }
+
+    #creditos {
+        position: absolute;
+        top: 50%; /* Ajuste a posição vertical */
+        left: 100%; /* Ajuste a posição horizontal */
+        transform: translate(-30%, -50%); /* Centraliza o container */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }    
+}
+
+@media screen and (max-width: 1024px) {
+    #creditos {
+        margin-left: 80%;
+        margin-top: 2%;
+        position: absolute;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+}
