@@ -94,8 +94,8 @@
     #creditos {
         position: absolute;
         top: 45%; /* Ajuste a posição vertical */
-        left: 100%; /* Ajuste a posição horizontal */
-        transform: translate(35%, -50%); /* Centraliza o container */
+        left: 50%; /* Ajuste a posição horizontal */
+        transform: translate(-50%, -50%); /* Centraliza o container */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -250,7 +250,7 @@
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (min-width: 720px) and (max-width: 1024px) {
     body {
         background-image: url(../img/fundo-icon.jpeg);
         background-repeat: no-repeat;
