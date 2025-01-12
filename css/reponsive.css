@@ -94,7 +94,7 @@
     #creditos {
         position: absolute;
         top: 45%; /* Ajuste a posição vertical */
-        left: 50%; /* Ajuste a posição horizontal */
+        left: 20%; /* Ajuste a posição horizontal */
         transform: translate(-50%, -50%); /* Centraliza o container */
         display: flex;
         justify-content: center;
