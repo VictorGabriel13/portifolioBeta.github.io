@@ -1,3 +1,7 @@
+/* Obs: estar faltando o media screen para telas entre: minimo de 481px para 700px*/
+
+/* @media screen and (min-width: 481px) and (max-width: 700px) */
+
 @media screen and (min-width: 390px) and (max-width: 480px) {
     body {
         background-image: url(../img/fundo-icon.jpeg);
@@ -94,7 +98,7 @@
     #creditos {
         position: absolute;
         top: 45%; /* Ajuste a posição vertical */
-        left: 20%; /* Ajuste a posição horizontal */
+        left: 50%; /* Ajuste a posição horizontal */
         transform: translate(-50%, -50%); /* Centraliza o container */
         display: flex;
         justify-content: center;
